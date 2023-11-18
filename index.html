@@ -17,13 +17,26 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
   <body class="container">
     <header>
       <h1>Crypto Coin App</h1>
-      <form>
-        <input type="text" placeholder="Search for a coin" autofocus />
-        <button type="submit">SEARCH</button>
+      <form id="form">
+        <input id="searchInput" type="text" placeholder="Search for a coin" autofocus />
+        <button id="search" type="submit">SEARCH</button>
       </form>
     </header>
     <main>
-      <ul class="coins">
+      <ul id="coinList" class="coins">
+
+        <!-- <li class="coinClass">
+          <article>
+            <p class="name">Name</p>
+            <P class="symbol">sym</P>
+          </article>
+          <p class="price">price</p>
+          <div class="img svg-icon">img</div>
+          <article><i class="fa-solid fa-chart-line"></i>
+            <p class="change">change</p>
+          </article>
+          
+        </li> -->
 
       </ul>
     </main>
@@ -35,6 +48,6 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css
     <script src="
 https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js
 "></script>
-    <script src="main.js"></script>
+    <!-- <script src="main.js"></script> -->
   </body>
 </html>

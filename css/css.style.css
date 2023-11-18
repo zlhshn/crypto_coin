@@ -168,3 +168,44 @@ body {
 }
 
 /*# sourceMappingURL=css.style.css.map */
+.svg-icon {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+
+.coinClass{
+
+  border: 1px solid white;
+  padding: .7rem  .4rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  line-height: 2rem;
+  box-shadow:  2px 2px 20px black;
+  
+}
+
+
+
+.coinClass article{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.name{
+
+  font-size: 1.4rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.symbol{
+
+  background-color: #ff8c00;
+  padding: .2rem  ;
+  border-radius: 5px;
+}
