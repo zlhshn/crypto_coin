@@ -81,7 +81,7 @@ const showCoin = (coin) => {
  })
 
 
-
+ localStorage.setItem('list',coinList.innerHTML)
  
 })
 
@@ -93,6 +93,9 @@ window.addEventListener('load',()=>{
 
     searchInput.innerText =''
     getCoin()
+   
+    coinList.innerHTML = localStorage.getItem('list')
+  
 })
 
 
@@ -113,7 +116,7 @@ form.addEventListener('submit',(e)=>{
 
     }
 
-   
+    localStorage.setItem('list',coinList.innerHTML)
 
        searchInput.value =''
   
@@ -128,6 +131,8 @@ coinList.addEventListener('click', (e) => {
     if (e.target.classList.contains('fa-x')) {
         e.target.closest('.coinClass').remove();
     }
+
+    localStorage.setItem('list',coinList.innerHTML)
 });
 
 
