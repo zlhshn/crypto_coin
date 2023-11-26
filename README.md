@@ -6,6 +6,8 @@ Project aims to display current data of searched crypto coin around the world wi
 ## Project Live Page
 [coin_app](https://zlhshn.github.io/crypto_coin/)
 
+![coin_app](./img/coinapp.gif)
+
 ## Usage
 
 - User can search crypto coin around the world crypto coin market.
