@@ -23,9 +23,9 @@ Project aims to display current data of searched crypto coin around the world wi
 
 ## Built With
 
-👉HTML5
-👉JS DOM
-👉SASS
-👉LOCAL STORAGE
-👉ASYNC/AWAİT
-👉API
+👉HTML5<br>
+👉JS DOM<br>
+👉SASS<br>
+👉LOCAL STORAGE<br>
+👉ASYNC/AWAİT<br>
+👉API<br>
