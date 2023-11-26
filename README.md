@@ -18,3 +18,14 @@ Project aims to display current data of searched crypto coin around the world wi
 
 ## API
 [Coinranking Api](https://developers.coinranking.com/api/documentation) 
+
+❗ Note ❗ If the project does not work in your browser, the reason may be secure internet. You can use VPN to receive data from the API.
+
+## Built With
+
+👉HTML5
+👉JS DOM
+👉SASS
+👉LOCAL STORAGE
+👉ASYNC/AWAİT
+👉API
